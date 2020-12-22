@@ -1,0 +1,8 @@
+<div>
+  <span>{{ title }} app is running!</span>
+</div>
+<h1>App Component</h1>
+
+<ul>
+    <li *ngFor='let h of hobbies'>{{ h.hobbie | mypipe:h.hobbie }}</li>
+   </ul>
